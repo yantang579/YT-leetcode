@@ -1,4 +1,4 @@
-package com.leetcode.easy;
+package com.leetcode.classes;
 
 import java.util.List;
 

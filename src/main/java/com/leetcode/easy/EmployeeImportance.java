@@ -1,6 +1,8 @@
 package com.leetcode.easy;
 
-import java.util.List;
+import com.leetcode.classes.Employee;
+
+import java.util.*;
 
 /**
  * Created by lqy on 2017/11/30.
@@ -29,11 +31,31 @@ class Employee {
 };
 */
 public class EmployeeImportance {
+    /**
+     * 使用了map和queue
+     * 首先将List<Employee>放入map中，可以通过id获取empplyee
+     * 然后将当前要获取的id的employee放入队列
+     * 遍历队列，将队列中employee的subordinates放入队列
+     * 用的树的层次遍历方法。
+     * @param employees
+     * @param id
+     * @return
+     */
     public int getImportance(List<Employee> employees, int id) {
-
-        for(Employee employee:employees){
-            employee.subordinates
+        int total=0;
+        Map<Integer,Employee> map= new HashMap<Integer, Employee>();
+        for(Employee em:employees){
+            map.put(em.id,em);
         }
-
+        Queue<Employee> qu=new LinkedList<Employee>();
+        qu.offer(map.get(id));
+        while(!qu.isEmpty()){
+            Employee current=qu.poll();
+            total+=current.importance;
+            for(Integer i:current.subordinates){
+                qu.offer(map.get(i));
+            }
+        }
+        return total;
     }
 }
