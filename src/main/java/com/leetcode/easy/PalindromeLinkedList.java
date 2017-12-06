@@ -10,18 +10,47 @@ import com.leetcode.classes.ListNode;
  * Follow up:
  * Could you do it in O(n) time and O(1) space?
  */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
 public class PalindromeLinkedList {
     /**
      * 思路：
-     * 1、遍历一遍判断长度。
-     * 2、压入栈中。
-     *      2.1 如果长度n为奇数，则将n/2压入栈中，对n/2+1跳过，从n/2+2开始出栈，判断是否相等，直到栈空
-     *      2.2 如果长度n为偶数，则将n/2压入栈中，从n/2+1开始出栈，判断是否相等，直到栈空
-     * 时间复杂度为O(n)，空间复杂度为O(n)
+     * 遍历一遍判断长度
+     * 遍历一遍将val放入数组中
+     * 两个指针一个从前一个从后判断是否相等
      * @param head
      * @return
      */
-    public boolean isPalindrome(ListNode head) {
-
+    public boolean isPalindrome(ListNode head){
+        ListNode temp;
+        temp=head;
+        int len=0;
+        while(temp!=null){
+            len++;
+            temp=temp.next;
+        }
+        temp=head;
+        int[] valArray= new int[len];
+        int i=0,j=valArray.length-1;
+        while(temp!=null){
+            valArray[i]=temp.val;
+            i++;
+            temp=temp.next;
+        }
+        i=0;
+        while(i<=j){
+            if(valArray[i]!=valArray[j])
+                return false;
+            i++;
+            j--;
+        }
+        return true;
     }
 }
