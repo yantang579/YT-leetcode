@@ -35,7 +35,7 @@ public class NthDigit {
         int start = 1;
         while (n > len * round) {
             n -= len * round;
-            len++;
+            len+=1;
             round *= 10;
             start *= 10;
         }
@@ -43,4 +43,6 @@ public class NthDigit {
         String s=Integer.toString(start);
         return Character.getNumericValue(s.charAt((n - 1) % len));
     }
+
+
 }//2147483647
