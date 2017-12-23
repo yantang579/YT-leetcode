@@ -1,6 +1,8 @@
 package com.leetcode.easy;
 import com.leetcode.classes.TreeNode;
 
+import java.util.Stack;
+
 /**
  * Created by yantang on 2017/12/23.
  * <p>
@@ -47,8 +49,39 @@ public class ConstructStringfromBinaryTree {
      *     TreeNode(int x) { val = x; }
      * }
      */
-
+    /**
+     * 方法一：
+     * 比较快，因为用了StringBuilder
+     * 递归
+     * @param t
+     * @return
+     */
     public String tree2str(TreeNode t) {
+        StringBuilder str=new StringBuilder();
+        helper(str,t);
+        return str.toString();
 
+    }
+    public void helper(StringBuilder str,TreeNode t){
+        if(t!=null){
+            str.append(t.val);
+            if(t.left!=null || t.right!=null){
+                str.append('(');
+                helper(str,t.left);
+                str.append(')');
+                if(t.right!=null){
+                    str.append('(');
+                    helper(str,t.right);
+                    str.append(')');
+                }
+            }
+        }
+    }
+
+    public String tree2str2(TreeNode t){
+        if(t==null) return "";
+        if(t.left==null && t.right==null) return t.val+"";
+        if(t.right==null) return t.val+"("+tree2str2(t.left)+")";
+        return t.val+"("+tree2str2(t.left)+")"+"("+tree2str2(t.right) +")";
     }
 }
