@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d479a392-d045-4b20-aa17-47739e83bf55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/FirstUniqueCharacterinaString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/NumberofSegmentsinaString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RansomNote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedStringMatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedSubstringPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseStringII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/StringCompression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/StudentAttendanceRecordI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/Test_RepeatedStringMatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/Test_RepeatedSubstringPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/Test_StringCompression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LengthofLastWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestCommonPrefix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ValidPalindromeII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ValidParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/Test_CountandSay.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/classes/TreeNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/classes/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ConstructStringfromBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ConstructStringfromBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedStringMatch.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedStringMatch.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,31 +38,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CountandSay.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CountandSay.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding>
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepeatedStringMatch.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedStringMatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="237">
+              <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_RepeatedStringMatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/Test_RepeatedStringMatch.java">
+      <file leaf-file-name="Test_CountandSay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/Test_CountandSay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -100,11 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ExcelSheetColumnNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/FactorialTrailingZeroes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SelfDividingNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/AddDigits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RangeAdditionII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/MinimumMovestoEqualArrayElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_AddStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/AddStrings.java" />
@@ -148,9 +123,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_StringCompression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/StringCompression.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/NumberofSegmentsinaString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_RepeatedStringMatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedStringMatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LengthofLastWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ValidPalindromeII.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_CountandSay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java" />
       </list>
     </option>
   </component>
@@ -206,8 +186,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,7 +303,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,27 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test_RepeatedStringMatch">
-    <configuration default="false" name="Test_ReverseVowelsofaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Test_ReverseVowelsofaString" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LCodeCheers" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test_CountandSay">
     <configuration default="false" name="Test_JudgeRouteCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -439,6 +399,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.leetcode.Test_RepeatedStringMatch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LCodeCheers" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test_CountandSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.Test_CountandSay" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -799,19 +779,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test_ReverseVowelsofaString" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test_JudgeRouteCircle" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test_RepeatedSubstringPattern" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test_StringCompression" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test_RepeatedStringMatch" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test_JudgeRouteCircle" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test_RepeatedSubstringPattern" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test_StringCompression" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test_RepeatedStringMatch" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test_CountandSay" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test_RepeatedStringMatch" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test_StringCompression" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test_RepeatedSubstringPattern" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test_JudgeRouteCircle" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test_ReverseVowelsofaString" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test_CountandSay" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test_RepeatedStringMatch" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test_StringCompression" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test_RepeatedSubstringPattern" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test_JudgeRouteCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -842,12 +822,13 @@
       <workItem from="1513903466126" duration="12588000" />
       <workItem from="1513946442805" duration="869000" />
       <workItem from="1513957292129" duration="2853000" />
-      <workItem from="1514009096931" duration="13936000" />
+      <workItem from="1514009096931" duration="14078000" />
+      <workItem from="1514164663707" duration="8311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193610000" />
+    <option name="totallyTimeSpent" value="202063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -918,7 +899,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="47" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -927,41 +908,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/Sqrt_x.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/UglyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PowerofThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PowerofTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/AddStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ArrangingCoins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -1217,9 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="1335" column="0" lean-forward="false" selection-start-line="1335" selection-start-column="0" selection-end-line="1335" selection-end-column="0" />
-          <folding>
-            <element signature="e#52271#52272#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1227,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="3334" column="0" lean-forward="false" selection-start-line="3334" selection-start-column="0" selection-end-line="3334" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,17 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/Test_RepeatedStringMatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1300,8 +1231,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/RepeatedStringMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="672">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LengthofLastWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ValidPalindromeII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/Test_CountandSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountandSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>

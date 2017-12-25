@@ -29,4 +29,22 @@ public class RepeatedStringMatch {
         }
         return -1;
     }
+
+    /**
+     * 与上面解法一样，利用了String的contains()来判断子串
+     * @param A
+     * @param B
+     * @return
+     */
+    public int repeatedStringMatch2(String A,String B){
+        StringBuilder sb=new StringBuilder();
+        int count=0;
+        while(sb.length()<B.length()){
+            sb.append(A);
+            count++;
+        }
+        if(sb.toString().contains(B)) return count;
+        if(sb.append(A).toString().contains(B)) return count;
+        return -1;
+    }
 }
