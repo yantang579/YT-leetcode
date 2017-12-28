@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import java.util.Stack;
+
 /**
  * Created by lqy on 2017/12/27.
  * <p>
@@ -30,23 +32,42 @@ public class MinStack {
      * int param_4 = obj.getMin();
      */
     /** initialize your data structure here. */
-    public MinStack() {
 
+    /**
+     * use only 1 stack
+     */
+    Stack<Long> st;
+    long min;
+    public MinStack() {
+        st=new Stack<Long>();
     }
 
     public void push(int x) {
+        if(st.empty()){
+            min=(long)x;
+            st.push(0L);
+        }else{
+            st.push(x-min);
+            if(x-min<0) min=x;
+        }
+
 
     }
 
     public void pop() {
-
+        long temp=st.pop();
+        if(temp<0){
+            min=min-temp;
+        }
     }
 
     public int top() {
-
+        long temp=st.peek();
+        if(temp<0) return (int)min;
+        return (int)(temp+min);
     }
 
     public int getMin() {
-
+        return (int)min;
     }
 }
