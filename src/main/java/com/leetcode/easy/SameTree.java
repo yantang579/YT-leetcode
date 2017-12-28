@@ -1,5 +1,8 @@
 package com.leetcode.easy;
+
 import com.leetcode.classes.TreeNode;
+
+import java.util.Stack;
 /**
  * Created by lqy on 2017/12/28.
  * <p>
@@ -17,8 +20,56 @@ import com.leetcode.classes.TreeNode;
  * }
  */
 public class SameTree {
-
+    /**
+     * recurison
+     *
+     * @param p
+     * @param q
+     * @return
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        
+        if (p == null || q == null) return p == q;
+        if (p.val == q.val) return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        return false;
+    }
+
+    /**
+     * iteration
+     *
+     * @param p
+     * @param q
+     * @return
+     */
+    public boolean isSameTree2(TreeNode p, TreeNode q) {
+        if (p == null || q == null) return p == q;
+        Stack<TreeNode> pStack = new Stack<TreeNode>();
+        Stack<TreeNode> qStack = new Stack<TreeNode>();
+        pStack.push(p);
+        qStack.push(q);
+        while (!pStack.empty() && !qStack.empty()) {
+            TreeNode t1 = pStack.pop();
+            TreeNode t2 = qStack.pop();
+            if (t1.val != t2.val) return false;
+            else {
+                if (t1.left != null && t2.left != null) {
+                    pStack.push(t1.left);
+                    qStack.push(t2.left);
+                } else if (t1.left == null && t2.left == null) {
+                } else {
+                    return false;
+                }
+
+                if (t1.right != null && t2.right != null) {
+                    pStack.push(t1.right);
+                    qStack.push(t2.right);
+                } else if (t1.right == null && t2.right == null) {
+                } else {
+                    return false;
+                }
+            }
+        }
+        if (!pStack.empty() || !qStack.empty())
+            return false;
+        return true;
     }
 }
