@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d479a392-d045-4b20-aa17-47739e83bf55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/AverageofLevelsinBinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SecondMinimumNodeInaBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/DiameterofBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/FindModeinBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SubtreeofAnotherTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/leetcode/Test_FindModelinBinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/ArrangingCoins.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/ArrangingCoins.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/ClimbingStairs.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/ClimbingStairs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/ConstructStringfromBinaryTree.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/ConstructStringfromBinaryTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/FindAllNumbersDisappearedinanArray.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/FindAllNumbersDisappearedinanArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/HouseRobber.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/HouseRobber.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/RomantoInteger.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/RomantoInteger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/leetcode/easy/SearchInsertPosition.class" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/easy/SearchInsertPosition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,18 +46,18 @@
       <file leaf-file-name="LowestCommonAncestorofaBinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LowestCommonAncestorofaBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondMinimumNodeInaBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecondMinimumNodeInaBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SecondMinimumNodeInaBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="693">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#854#864#0" expanded="true" />
@@ -57,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTilt.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BinaryTreeTilt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -89,10 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/JudgeRouteCircle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_JudgeRouteCircle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseWordsinaStringIII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUncommonSubsequenceI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/DetectCapital.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/CountBinarySubstrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/classes/TreeNode.java" />
@@ -137,9 +143,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SumofLeftLeaves.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_ConvertBSTtoGreaterTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ConvertBSTtoGreaterTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/AverageofLevelsinBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SecondMinimumNodeInaBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SubtreeofAnotherTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/leetcode/Test_FindModelinBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/FindModeinBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/DiameterofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" />
       </list>
     </option>
   </component>
@@ -291,9 +301,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,27 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test_ConvertBSTtoGreaterTree">
-    <configuration default="false" name="Test_CountandSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Test_CountandSay" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LCodeCheers" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Test_FindModelinBinarySearchTree">
     <configuration default="false" name="Test_BianryWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -415,6 +405,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.leetcode.Test_ConvertBSTtoGreaterTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LCodeCheers" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test_FindModelinBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.Test_FindModelinBinarySearchTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -815,19 +825,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test_CountandSay" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test_BianryWatch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test_MinStack" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test_SumofLeftLeaves" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test_ConvertBSTtoGreaterTree" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test_BianryWatch" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test_MinStack" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test_SumofLeftLeaves" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test_ConvertBSTtoGreaterTree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test_FindModelinBinarySearchTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test_ConvertBSTtoGreaterTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test_SumofLeftLeaves" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test_MinStack" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test_BianryWatch" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test_CountandSay" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test_FindModelinBinarySearchTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test_ConvertBSTtoGreaterTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test_SumofLeftLeaves" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test_MinStack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test_BianryWatch" />
       </list>
     </recent_temporary>
   </component>
@@ -861,12 +871,13 @@
       <workItem from="1514009096931" duration="14078000" />
       <workItem from="1514164663707" duration="25446000" />
       <workItem from="1514695051953" duration="17045000" />
-      <workItem from="1514733973431" duration="3380000" />
+      <workItem from="1514733973431" duration="3444000" />
+      <workItem from="1514774725649" duration="11252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243404000" />
+    <option name="totallyTimeSpent" value="254720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,6 +895,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -902,12 +914,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40349177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.402854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -943,7 +954,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="59" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -952,34 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/FirstUniqueCharacterinaString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/StudentAttendanceRecordI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseStringII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/Test_RepeatedSubstringPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1155,19 +1138,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/MaximumDepthofBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,12 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#659#674#0" expanded="true" />
-            <element signature="e#720#730#0" expanded="true" />
-            <element signature="e#901#910#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,10 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="28" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#483#493#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,18 +1223,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LowestCommonAncestorofaBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1279,23 +1235,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#546#554#0" expanded="true" />
-            <element signature="e#600#610#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SecondMinimumNodeInaBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#854#864#0" expanded="true" />
             <element signature="e#937#946#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SameTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="e#1090#1100#0" expanded="false" />
+            <element signature="e#1146#1156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SubtreeofAnotherTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#579#589#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/leetcode/Test_FindModelinBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/FindModeinBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1083#1093#0" expanded="false" />
+            <element signature="e#1234#1243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/DiameterofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

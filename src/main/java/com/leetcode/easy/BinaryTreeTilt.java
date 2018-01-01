@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.classes.TreeNode;
+
 /**
  * Created by lqy on 2017/12/31.
  * <p>
@@ -15,4 +17,7 @@ package com.leetcode.easy;
  * (并不是只算各个节点左右孩子的差)
  */
 public class BinaryTreeTilt {
+    public int findTilt(TreeNode root) {
+
+    }
 }
