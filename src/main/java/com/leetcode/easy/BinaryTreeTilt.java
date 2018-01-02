@@ -17,7 +17,16 @@ import com.leetcode.classes.TreeNode;
  * (并不是只算各个节点左右孩子的差)
  */
 public class BinaryTreeTilt {
+    public int sum=0;
     public int findTilt(TreeNode root) {
-
+        postOrder(root);
+        return sum;
+    }
+    public int postOrder(TreeNode root){
+        if(root==null) return 0;
+        int left=postOrder(root.left);
+        int right=postOrder(root.right);
+        sum+=Math.abs(left-right);
+        return left+right+root.val;
     }
 }

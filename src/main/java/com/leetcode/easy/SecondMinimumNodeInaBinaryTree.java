@@ -20,27 +20,26 @@ import java.util.Stack;
  * If no such second minimum value exists, output -1 instead.
  */
 public class SecondMinimumNodeInaBinaryTree {
-    public int findSecondMinimumValue(TreeNode root) {
+    public int first;
+    public int second;
+    public int findSecondMinimumValue(TreeNode root){
         if(root==null) return -1;
-        Stack<TreeNode> stack=new Stack<TreeNode>();
-        TreeNode temp=root;
-        List<Integer> list= new ArrayList<Integer>();
-        int min=0;
-        int count=0;
-        while(temp!=null || !stack.empty()){
-            while(temp!=null){
-                stack.push(temp);
-                temp=temp.left;
+        if(root.left==null && root.right==null) return -1;
+        first=root.val;
+        second=Integer.MAX_VALUE;
+        find(root);
+        if(second!=Integer.MAX_VALUE) return second;
+        return -1;
+    }
+    public void find(TreeNode root){
+        if(root!=null){
+            if(root.val!=first && root.val<second){
+                second=root.val;
             }
-            if(!stack.empty()){
-                temp=stack.pop();
-                list.add(temp.val);
-                temp=temp.right;
+            if(root.left!=null & root.right!=null){
+                find(root.left);
+                find(root.right);
             }
         }
-        int size=list.size();
-        //int[] array = list.toArray();
-
-        return -1;
     }
 }
