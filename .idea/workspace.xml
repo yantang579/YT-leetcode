@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d479a392-d045-4b20-aa17-47739e83bf55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BianryTreePaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/MergeTwoBinaryTrees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/TrimaBinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/TwoSumIVInputisaBST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LowestCommonAncestorofaBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LowestCommonAncestorofaBinarySearchTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SecondMinimumNodeInaBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/SecondMinimumNodeInaBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/TrimaBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/easy/TrimaBinarySearchTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,18 +36,18 @@
       <file leaf-file-name="PathSumIII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="420">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestUnivaluePath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java">
+      <file leaf-file-name="PathSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="819">
+              <caret line="61" column="91" lean-forward="true" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -63,8 +56,8 @@
       <file leaf-file-name="TrimaBinarySearchTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/TrimaBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="758">
+              <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -140,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LowestCommonAncestorofaBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BianryTreePaths.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/BinaryTreeTilt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/TrimaBinarySearchTree.java" />
       </list>
     </option>
@@ -760,12 +753,12 @@
       <workItem from="1514733973431" duration="3444000" />
       <workItem from="1514774725649" duration="11252000" />
       <workItem from="1514856142856" duration="1559000" />
-      <workItem from="1514893618125" duration="7823000" />
+      <workItem from="1514893618125" duration="13405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264102000" />
+    <option name="totallyTimeSpent" value="269684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,7 +770,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1168" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1168" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1049,13 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="61" column="91" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="61" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1124,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/DiameterofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/FindModeinBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -1177,7 +1155,7 @@
         <state relative-caret-position="651">
           <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1187,10 +1165,10 @@
         <state relative-caret-position="357">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#462#0" expanded="true" />
-            <element signature="e#506#514#0" expanded="true" />
-            <element signature="e#557#565#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#452#462#0" expanded="false" />
+            <element signature="e#506#514#0" expanded="false" />
+            <element signature="e#557#565#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1203,26 +1181,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="504">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/LongestUnivaluePath.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/DiameterofBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="693">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="61" column="91" lean-forward="true" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PathSumIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/TrimaBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="758">
+          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
           <folding />
         </state>
       </provider>

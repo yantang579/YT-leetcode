@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.classes.TreeNode;
+
 /**
  * Created by lqy on 2018/1/2.
  * <p>
@@ -10,4 +12,22 @@ package com.leetcode.easy;
  * The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
  */
 public class PathSumIII {
+    /**
+     * 以每一个节点作为路径根节点进行前序遍历，查找每一条路径的权值和与sum是否相等。
+     * @param root
+     * @param sum
+     * @return
+     */
+    public int pathSum(TreeNode root, int sum) {
+        if(root==null) return 0;
+        int res=findPath(root,0,sum)+pathSum(root.left,sum)+pathSum(root.right,sum);
+        return res;
+    }
+    public int findPath(TreeNode root,int total,int sum){
+        if(root==null) return 0;
+        total+=root.val;
+        if(total==sum) return findPath(root.left,total,sum)+findPath(root.right,total,sum)+1;
+        return findPath(root.left,total,sum)+findPath(root.right,total,sum);
+    }
 }
+
