@@ -22,6 +22,21 @@ package com.leetcode.medium;
  */
 public class HouseRobberII {
     public int rob(int[] nums) {
-
+        if(nums==null ||nums.length==0) return 0;
+        if(nums.length==1) return nums[0];
+        if(nums.length==2) return 0;
+        int res1=rob(nums,0,nums.length-2);
+        int res2=rob(nums,1,nums.length-1);
+        return res1>res2?res1:res2;
+    }
+    public int rob(int[] nums,int left,int right){
+        int len=right-left+1;
+        int[] dp=new int[len];
+        dp[0]=nums[left];
+        dp[1]=Math.max(nums[left+1],nums[left]);
+        for(int i=2;i<len;i++){
+            dp[i]=Math.max(dp[i-2]+nums[i+left],dp[i-1]);
+        }
+        return dp[len-1];
     }
 }
