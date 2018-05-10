@@ -33,7 +33,17 @@ public class Permutations {
             res.add(list);
             return ;
         }
-        
-
+        for(int i=index;i<nums.length;i++){
+            ArrayList<Integer> list1=new ArrayList<Integer>(list);
+            int temp=nums[index];
+            nums[index]=nums[i];
+            nums[i]=temp;
+            list1.add(nums[index]);
+            permuteHelper(nums,index+1,res,list1);
+            temp=nums[index];
+            nums[index]=nums[i];
+            nums[i]=temp;
+        }
+        return;
     }
 }
