@@ -20,7 +20,6 @@ import java.util.List;
  * ]
  */
 
-
 public class PalindromePartitioning {
     List<List<String>> res=new ArrayList<List<String>>();
     public List<List<String>> partition1(String s) {
@@ -41,6 +40,12 @@ public class PalindromePartitioning {
             }
         }
     }
+
+    /**
+     * o(n)方法遍历
+     * @param s
+     * @return
+     */
     private boolean isPalindrome1(String s){
         if(s.length()==0)return false;
         for(int i=0,j=s.length()-1;i<=j;i++,j--){
