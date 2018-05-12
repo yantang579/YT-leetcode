@@ -36,6 +36,7 @@ public class CombinationSum {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if(candidates==null||candidates.length==0) return res;
+        Arrays.sort(candidates);
         combinationSumHelper(candidates,new ArrayList<Integer>(),candidates.length-1,target);
         return res;
     }
@@ -48,17 +49,17 @@ public class CombinationSum {
      * @param index
      */
     private void combinationSumHelper(int[] candidates,List<Integer> list,int index,int target){
-        if(index==-1 && target==0){
+        if(target==0){
             res.add(new ArrayList<Integer>(list));
             return;
         }
         for(int i=index;i>=0;i--){
             if(candidates[i]>target) continue;
-            for(int j=1;candidates[i]*j<=target;j++){
-                list.add(candidates[i]);
-                combinationSumHelper(candidates,list,index-1,target-candidates[i]);
-                list.remove(list.size()-1);
-            }
+
+            list.add(candidates[i]);
+            combinationSumHelper(candidates,list,i,target-candidates[i]);
+            list.remove(list.size()-1);
+
         }
     }
 
