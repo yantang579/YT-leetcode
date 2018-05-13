@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee437d9-a6ef-4378-a087-fbef5f7597cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/SubsetsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +23,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CombinationSumII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombinationSumII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+            <state relative-caret-position="300">
+              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
               <folding>
                 <element signature="e#900#915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombinationSumIII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumIII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#662#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subsets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/Subsets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#494#509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubsetsII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/SubsetsII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#478#493#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +77,8 @@
       <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="60">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="e#843#858#0" expanded="true" />
               </folding>
@@ -95,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/PermutationsII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumIII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/SubsetsII.java" />
       </list>
     </option>
   </component>
@@ -107,7 +150,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1935" />
     <option name="height" value="1038" />
@@ -205,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumII">
+  <component name="RunManager" selected="Application.SubsetsII">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -231,8 +274,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.PalindromePartitioning" />
+    <configuration name="CombinationSumIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.CombinationSumIII" />
       <module name="LCodeCheers" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -242,8 +285,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PermutationsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.PermutationsII" />
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.Subsets" />
       <module name="LCodeCheers" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -253,8 +296,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RestoreIPAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.RestoreIPAddresses" />
+    <configuration name="SubsetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.SubsetsII" />
       <module name="LCodeCheers" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -365,19 +408,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Application.RestoreIPAddresses" />
-      <item itemvalue="Application.PalindromePartitioning" />
-      <item itemvalue="Application.PermutationsII" />
       <item itemvalue="Application.CombinationSum" />
       <item itemvalue="Application.CombinationSumII" />
+      <item itemvalue="Application.CombinationSumIII" />
+      <item itemvalue="Application.Subsets" />
+      <item itemvalue="Application.SubsetsII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubsetsII" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.CombinationSumIII" />
         <item itemvalue="Application.CombinationSumII" />
         <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.PermutationsII" />
-        <item itemvalue="Application.PalindromePartitioning" />
-        <item itemvalue="Application.RestoreIPAddresses" />
       </list>
     </recent_temporary>
   </component>
@@ -408,20 +451,20 @@
       <workItem from="1526001087596" duration="1955000" />
       <workItem from="1526091904557" duration="11412000" />
       <workItem from="1526123064399" duration="364000" />
-      <workItem from="1526132993585" duration="7617000" />
+      <workItem from="1526132993585" duration="11412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92272000" />
+    <option name="totallyTimeSpent" value="96067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1548" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32963988" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3292978" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -429,18 +472,18 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2881356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20338982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39750692" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39709443" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
@@ -468,11 +511,19 @@
           </properties>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumIII.java</url>
+          <line>35</line>
+          <properties class="com.leetcode.medium.CombinationSumIII" method="combinationSum3Helper">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -480,27 +531,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/Numberof1Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/PowerofFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/SumofTwoIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -820,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="e#843#858#0" expanded="true" />
           </folding>
@@ -830,10 +860,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
           <folding>
             <element signature="e#900#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/CombinationSumIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#662#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/SubsetsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
