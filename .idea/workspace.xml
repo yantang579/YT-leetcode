@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee437d9-a6ef-4378-a087-fbef5f7597cb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,64 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/hard/SudokuSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1555">
-              <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1002#1017#0" expanded="true" />
-                <element signature="e#1190#1199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortColors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/SortColors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KthLargestElementinanArray.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KthLargestElementinanArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/ContainerWithMostWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="N_QueensII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/hard/N_QueensII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="363">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -141,9 +88,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/hard/N_QueensII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/hard/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/SortColors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java" />
       </list>
     </option>
   </component>
@@ -255,9 +202,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseString">
+  <component name="RunManager" selected="Application.KthLargestElementinanArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="KthLargestElementinanArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.KthLargestElementinanArray" />
+      <module name="LCodeCheers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="NumberofIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.NumberofIslands" />
@@ -277,17 +235,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SubsetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.SubsetsII" />
-      <module name="LCodeCheers" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,19 +362,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Application.SubsetsII" />
       <item itemvalue="Application.NumberofIslands" />
       <item itemvalue="Application.SurroundedRegions" />
       <item itemvalue="Application.SudokuSolver" />
       <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.KthLargestElementinanArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthLargestElementinanArray" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.SudokuSolver" />
         <item itemvalue="Application.SurroundedRegions" />
         <item itemvalue="Application.NumberofIslands" />
-        <item itemvalue="Application.SubsetsII" />
       </list>
     </recent_temporary>
   </component>
@@ -460,12 +407,12 @@
       <workItem from="1526123064399" duration="364000" />
       <workItem from="1526132993585" duration="34320000" />
       <workItem from="1527036911911" duration="4549000" />
-      <workItem from="1527060267352" duration="15207000" />
+      <workItem from="1527060267352" duration="16330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138731000" />
+    <option name="totallyTimeSpent" value="139854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
@@ -485,13 +432,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39709443" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39709443" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -878,6 +825,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/hard/N_QueensII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -888,22 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/hard/SudokuSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1555">
-          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1002#1017#0" expanded="true" />
-            <element signature="e#1190#1199#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="71">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -914,17 +856,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/easy/ReverseString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/hard/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="943">
+          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1002#1017#0" expanded="true" />
+            <element signature="e#1190#1199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/ContainerWithMostWater.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/medium/KthLargestElementinanArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="363">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
